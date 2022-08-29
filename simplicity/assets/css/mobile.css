@@ -1,0 +1,25 @@
+.mobile-only, .tablet-only {
+	display:none;
+}
+
+@media screen and (max-width:980px){
+	h1 {
+		display: none;
+	}
+	.tablet-only {
+		display:block;
+	}
+}
+
+@media screen and (max-width:550px){
+	h1, .desktop-only, .tablet-only {
+		display: none;
+	}
+	.mobile-only {
+		display:block;
+	}
+	.muscles {
+		font-size: 1rem;
+		font-family: 'League Spartan', sans-serif;
+	}
+}
