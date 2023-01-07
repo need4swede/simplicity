@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Mike Afshari | Simplicity
+	https://github.com/need4swede
+	Design based on the work of https://twitter.com/ajlkn
+	Please feel free to contact me with any inquiries, thank you
+-->
+<html>
+	<head>
+		<title>Simplicity - N4S</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/mobile.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Show BG -->
+				<div id="background-container"><img id="showBG" src="" alt=""></div>
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img class="logo" src="images/logo.png" alt="">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<div class="mobile-only">
+									<h1 class="mobile-only">Asgard</h1>
+								</div>
+								<div class="tablet-only">
+									<h1 class="tablet-only">Welcome to Asgard</h1>
+								</div>
+								<h1 class="title">Welcome to Asgard</h1>
+								<p class="slow-fade">Choose an option</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#primary">Bifröst</a></li>
+								<li><a href="#secondary">Secondary</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<li><a href="#menu">Menu</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Link 1 -->
+							<article id="primary">
+								<h3 class="center-text">Bifröst</h3>
+								<p class="center-text">Device Management</p>
+								<section class="center-text">
+									<span>
+										<a target="_blank" href="checkout.html" class="buttons-horizontal button primary">Checkout</a>
+										<a href="#" class="buttons-horizontal button primary" onclick="showBackground()">Request</a>
+										<li class="no-list-style add-top-margin"><a href="#" class="add-top-margin">Return</a></li>
+									</span>
+								</section>
+							</article>
+
+						<!-- Link 2 -->
+							<article id="secondary">
+								<h2 class="center-text">Secondary</h2>
+								<p class="center-text">Place your secondary information here</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact Me</h2>
+								<p class="major">Form is for demo purposes only</p>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Submit" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</article>
+						
+						<!-- Menu -->
+						<article id="menu">
+							<h3 class="center-text">Choose a Menu Item</h3>
+							<section class="center-text">
+								<span>
+									<a target="_blank" href="https://mafshari.netlify.app/" class="buttons-horizontal button primary">My Portfolio</a>
+									<a href="#" class="buttons-horizontal button" onclick="showBackground()">View Backdrop</a>
+									<li class="no-list-style add-top-margin" onclick="window.open(loadedImage)"><a href="#" class="add-top-margin">Download Image</a></li>
+								</span>
+							</section>
+						</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p id="source"></p>
+						<p class="copyright">&copy; <a target="_blank" href="https://github.com/need4swede">Need4Swede</a> | Thanks to <a target="_blank" href="https://twitter.com/ajlkn">ajlkn</a></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+		<div id="bg-overlay"></div>
+		<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

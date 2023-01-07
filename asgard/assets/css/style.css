@@ -1,0 +1,102 @@
+/*
+	Mike Afshari | Simplicity
+	https://github.com/need4swede
+	Design based on the work of https://twitter.com/ajlkn
+	Please feel free to contact me with any inquiries, thank you
+*/
+
+.no-margin {
+	margin: 0;
+}
+	p.no-margin:nth-child(1) {
+		color: white;
+	}
+.add-top-margin {
+	margin-top: 5%;
+}
+
+.no-border {
+	border: none;
+}
+
+.no-list-style {
+	list-style-type: none;
+}
+
+.major-subtitle {
+	padding-bottom: 0%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.underline {
+	display: block;
+	content: "";
+	border-bottom: 1px solid white;
+	text-align: center;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-top: 1.5%;
+	margin-bottom: 4%;
+}
+
+.center-text {
+	text-align: center;
+}
+	p.center-text.muscles {
+		margin: 0;
+	}
+.left-text {
+	text-align: left;
+}
+.right-text {
+	text-align: right;
+}
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0 8%;
+  }
+  
+  .column {
+	flex: 33.33%;
+  }
+
+.muscles {
+	font-size: 1.4rem;
+	font-family: 'League Spartan', sans-serif;
+}
+
+.buttons-horizontal {
+	margin: 1rem;
+}
+pre {
+	margin-bottom: 0;
+}
+code {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.group{
+	margin: inherit;
+	padding: inherit;
+	border: inherit;
+	font-size: inherit;
+	font: inherit;
+	vertical-align: inherit;
+}
+
+.enhanceText {
+	font-size: 1.2rem;
+}
+
+.emphasizeText {
+	font-style: italic;
+}
+
+footer a {
+	border: none;
+}
